@@ -43,9 +43,9 @@ function getTimeRemaining(endtime){
   $(".ace_btn").addcalevent({
     'data': {
       "title":"Anita & Tomás",
-      "desc":"Nos casamos ♥", 
+      "desc":"Nos casamos ♥ y que festejes esta gran fecha junto a nosotros nos haría muy felices!", 
       "location": "Casa de Campo, Callejón Prof. Mathus, Bermejo, Guaymallen, Mendoza",
-      "url": "https://wonderful-jennings-88cc9e.netlify.app/",		
+      "url": "https://anitaytomas.netlify.app/",		
       "time":{
         "start":"February 27, 2022 11:45:00",
         "end":"February 28, 2022 10:00:00",
