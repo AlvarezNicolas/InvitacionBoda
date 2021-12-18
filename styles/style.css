@@ -185,13 +185,22 @@
   /* ==========================================================================
      Cover
      ========================================================================== */
-  #cover {
+  /* #cover {
     background-size: cover;
     background-color: var(--color03);
     color: var(--white);
     overflow: hidden;
     position: relative;
+  } */
+  #cover{
+width: 96%;
+max-width: 960px;
+margin: 0 auto;
   }
+  img {
+    width: 100%;
+    height: auto;
+    }
   .cover-text {
     position: absolute;
     top: 20%;
