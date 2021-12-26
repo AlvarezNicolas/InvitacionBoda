@@ -203,7 +203,7 @@ margin: 0 auto;
     }
   .cover-text {
     position: absolute;
-    top: 20%;
+    top: 10%;
     width: 100%;
     left: 0;
     text-align: center;
@@ -446,7 +446,7 @@ margin: 0 auto;
   }
   
   .copyright p a {
-    color: var(--color03);
+    color: rgb(101, 205, 240);
   }
   
   .copyright p a:hover {
