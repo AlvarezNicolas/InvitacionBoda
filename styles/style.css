@@ -242,7 +242,7 @@ margin: 0 auto;
   #countdown {
     text-align: center;
     color: var(--white);
-    background-color: var(--color03);
+    background-color: var(--color05);
   }
   #countdown .countdown-section span.countdown-amount {
     font-size: 40px;
