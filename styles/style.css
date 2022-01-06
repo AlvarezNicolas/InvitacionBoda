@@ -40,7 +40,7 @@
   }
   h1,
   h2 {
-    font-family: var(--font01);
+    font-family: ;
   }
   h1 {
     font-size: 2.5rem;
@@ -49,7 +49,7 @@
     font-size: 2rem;
   }
   h3 {
-    font-family: var(--font02);
+    font-family: ;
     font-size: 1.3rem;
     font-weight: 400 !important;
   }
@@ -202,6 +202,7 @@ margin: 0 auto;
     height: auto;
     }
   .cover-text {
+    font-family: 'Licorice';
     position: absolute;
     top: 10%;
     width: 100%;
@@ -306,6 +307,10 @@ margin: 0 auto;
     FONT-SIZE: 1REM;
     FONT-WEIGHT: 500;
   }
+
+  #invita {
+    font-size: 3REM;
+  }
   /* ==========================================================================
     Regalos
     ========================================================================== */
@@ -314,10 +319,10 @@ margin: 0 auto;
     background-color: var(--color02);
   }
   #regalos h2 {
-    font-family: var(--font02);
+    font-family: ;
   }
   #regalos h3 {
-    font-family: var(--font03);
+    font-family: ;
   }
   #regalos .btn {
     max-width: fit-content;
@@ -350,6 +355,9 @@ margin: 0 auto;
   }
   #social h2 {
     font-family: var(--font03);
+  }
+  #social2 {
+    font-size: 2REM;
   }
   /* ==========================================================================
     Nosotros - Galeria de fotos
