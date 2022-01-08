@@ -202,9 +202,9 @@ margin: 0 auto;
     height: auto;
     }
   .cover-text {
-    font-family: 'Licorice';
+    font-family: 'castellar';
     position: absolute;
-    top: 175%;
+    top: 20%;
     width: 100%;
     left: 0;
     text-align: center;
@@ -213,7 +213,7 @@ margin: 0 auto;
     -ms-transform: translate(0%, -50%);
     transform: translate(0%, -50%);
   }
-  #cover h1 {
+  #cover h2 {
     font-size: 6em;
     font-weight: 700;
     line-height: 600px;
