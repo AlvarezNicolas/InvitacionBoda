@@ -204,7 +204,7 @@ margin: 0 auto;
   .cover-text {
     font-family: 'Licorice';
     position: absolute;
-    top: 10%;
+    top: 175%;
     width: 100%;
     left: 0;
     text-align: center;
@@ -214,17 +214,17 @@ margin: 0 auto;
     transform: translate(0%, -50%);
   }
   #cover h1 {
-    font-size: 5em;
-    font-weight: 500;
-    line-height: 90px;
-    margin-bottom: 25px;
+    font-size: 6em;
+    font-weight: 700;
+    line-height: 600px;
+    margin-bottom: 0px;
   }
   #cover p {
     font-size: 18px;
     margin-top: 70px;
     line-height: 26px;
   }
-  #cover video {
+  /* #cover video {
     width: 100% !important;
     height: auto !important;
   }
@@ -235,7 +235,7 @@ margin: 0 auto;
     #cover h1 {
       font-size: 2.5em;
     }
-  }
+  } */
   
   /* ==========================================================================
      Countdown
@@ -309,7 +309,7 @@ margin: 0 auto;
   }
 
   #invita {
-    font-size: 3REM;
+    font-size: 2REM;
   }
   /* ==========================================================================
     Regalos
