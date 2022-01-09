@@ -32,16 +32,15 @@
 		rel="stylesheet">
 </head>
 
-<body>
+<body onclick="document.addEventListener('click', function() { document.getElementById('musica').play() }, { once: true });">
+	
 	<section id="cover">
 		<img src="./img/Ana y  Tomas.jpg" alt="Ana y Tomás">
 		<!-- <video muted="" autoplay="" loop="" playsinline="">
 			<source type="video/mp4" src="https://www.anitaytomas.com.ar/img/anitaytomas.mp4">
 		</video> -->
-		<audio controls autoplay="" loop="" preload="auto">
-			<source src="music/[MP3DOWNLOAD.TO] Canon in D (Pachelbel) - Violin & Piano-320k.mp3" type="audio/mpeg">
-			<source src="music/[MP3DOWNLOAD.TO] Canon in D (Pachelbel) - Violin & Piano-HQ.ogg" type="audio/ogg">
-		</audio>
+		<audio src="./music/[MP3DOWNLOAD.TO] Canon in D (Pachelbel) - Violin & Piano-320k.mp3" id="musica" autoplay></audio>
+		<audio src="./music/[MP3DOWNLOAD.TO] Canon in D (Pachelbel) - Violin & Piano-HQ.ogg" id="musica" autoplay></audio>
 		<!-- <div class="cover-text"> -->
 			<!-- <h2>¡NOS CASAMOS!</h2>
 			<h1>Ana Lucia ♥ Tomás</h1> -->
